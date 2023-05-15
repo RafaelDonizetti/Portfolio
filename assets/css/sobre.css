@@ -47,8 +47,7 @@ body {
     display: grid;
     grid-template-columns:repeat(1, fr);
     place-items: center;
-    
-    
+    height: 100vh;
 }
 
 .skills>h1 {
@@ -141,20 +140,44 @@ body {
         align-items: center;
         justify-content: center;
     }
+
+    .card-skills{
+        width: 100%;
+    }
 }
 
 
 /* MOBILE */
 
 @media screen and (max-width:426px) {
-    .card {
+    .card{
         position: relative;
-        top: 100px;
+        top: 40px;
     }
     .skills{
         height: 100vh;
-        position: relative;
-        top: 100px;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+    .cards{
+        overflow: auto;
+        display: flex;
+        scroll-snap-type: x mandatory;
+        justify-content: start;
+        gap: 20px;
+    }
+    .cards .card-skills{
+        flex-shrink: 0;
+        scroll-snap-align: start;
+    }
+
+    .card-skills{
+       width: 80%;
+    }
+    .card-skills:active{
+        opacity: 1;
+        transform: translateX(0);
     }
     .card-conteudo{
         position: relative;
@@ -190,7 +213,6 @@ body {
     .cards{
         display: flex;
         overflow-x: scroll;
-
     }
 }
 
