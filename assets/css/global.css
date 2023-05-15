@@ -1,0 +1,27 @@
+/*Config padrão*/
+
+@import url(default.css);
+
+/*Reponsivel*/
+
+@import url(responsive.css);
+
+/*Header padrão*/
+
+@import url(style.css);
+
+/*Footer padrão*/
+
+@import url(footer.css);
+
+/*index.html*/
+
+@import url(index.css);
+
+/*sobre.html*/
+
+@import url(sobre.css);
+
+/*projetos.html*/
+
+@import url(projetos.css);

@@ -1,0 +1,129 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 4rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.309);
+    transform: translateY(-2px);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    background-color: #30332E;
+}
+
+header>a {
+    font-size: 2rem;
+    font-family: 'Share Tech', sans-serif;
+    color: white;
+}
+
+header a:hover {
+    color: #86BA90;
+    transition: 0.2s;
+}
+
+nav ul {
+    display: flex;
+    gap: 0.9rem;
+    align-items: center;
+}
+
+nav ul>a {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: white;
+    background: linear-gradient(#86BA90, #86BA90) no-repeat left 1.4rem;
+    background-size: 0 4px;
+    transition: background 0.3s ease;
+}
+
+nav ul > a:hover{
+    background-size:100% 4px ;
+}
+
+nav ul>a:nth-child(3) {
+    color:#30332E;
+    background-color:#86BA90;
+    padding: 6px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: 0.2s ease-out;
+}
+nav ul>a:nth-child(3):hover{
+    color:#fff;
+}
+nav ul>a:nth-child(3):active {
+    transform: translateY(3px);
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background: #30332E;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown .button {
+    background-color: transparent;
+    color: #fff;
+    padding: 10px 15px;
+    font-family: inherit;
+    border: none;
+    border-radius: 8px;
+    transition: 0.3s;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.dropdown .btns-nav {
+    position: absolute;
+    left: -94%;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: -1;
+    border-radius: 8px;
+    transition: 0.3s;
+    opacity: 0;
+}
+
+.dropdown .btns-nav a {
+    display: block;
+    color: #212121;
+    padding: 12px 24px;
+    text-decoration: none;
+    border: 8px;
+    transition: 0.3s;
+}
+
+.dropdown .btns-nav a:hover {
+    background: #e3e3e3;
+}
+
+.dropdown:hover .button {
+    background: #435e49;
+}
+
+.dropdown:hover .btns-nav {
+    opacity: 1;
+    z-index: 1;
+}
+
+@media screen and (min-width: 769px) {
+    .dropdown {
+        display: none;
+    }
+}
+
+@media screen and (max-width:789px) {
+    .nav-desktop {
+        display: none;
+    }
+}

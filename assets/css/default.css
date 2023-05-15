@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Galada&family=Lobster+Two&family=Montserrat:wght@400;600&family=Poppins:wght@200&family=Roboto&family=Share+Tech&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    text-decoration: none;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer {
+    display: grid;
+    place-content: center;
+}
+
+footer p {
+    font-family: 'Share Tech', sans-serif;
+    font-size: 1rem;
+    color: white;
+    letter-spacing: 0.04rem;
+}
