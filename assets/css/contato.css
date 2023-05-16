@@ -3,7 +3,7 @@
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.200);
     border-radius: 8px;
     height: 70%;
-    width: 20%;
+    width: 30%;
 }
 .conteudo-social-contato{
     height: 100%;
@@ -25,4 +25,10 @@
 .conteudo-social-contato a:hover{
     background-size:100% 2px;
     color: #86BA90;
+}
+/*Mobile*/
+@media screen and (max-width:426px) {
+    .card-social-contato{
+        width: 80%;
+    }
 }
