@@ -1,0 +1,28 @@
+.card-social-contato{
+    background-color: transparent;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.200);
+    border-radius: 8px;
+    height: 70%;
+    width: 20%;
+}
+.conteudo-social-contato{
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.conteudo-social-contato a{
+    color: #fff;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(#86BA90, #86BA90) no-repeat left 1.4rem;
+    background-size: 0 2px;
+    transition: background 0.3s ease;
+}
+
+.conteudo-social-contato a:hover{
+    background-size:100% 2px;
+    color: #86BA90;
+}
