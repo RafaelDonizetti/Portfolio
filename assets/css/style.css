@@ -22,7 +22,7 @@ header>a {
 
 header a:hover {
     color: #86BA90;
-    transition: 0.2s;
+    transition: 0.2s ease-out;
 }
 
 nav ul {
@@ -44,7 +44,7 @@ nav ul > a:hover{
     background-size:100% 4px ;
 }
 
-nav ul>a:nth-child(3) {
+nav ul>a:nth-child(4) {
     color:#30332E;
     background-color:#86BA90;
     padding: 6px;
@@ -52,10 +52,10 @@ nav ul>a:nth-child(3) {
     text-decoration: none;
     transition: 0.2s ease-out;
 }
-nav ul>a:nth-child(3):hover{
+nav ul>a:nth-child(4):hover{
     color:#fff;
 }
-nav ul>a:nth-child(3):active {
+nav ul>a:nth-child(4):active {
     transform: translateY(3px);
 }
 
