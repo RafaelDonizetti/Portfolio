@@ -1,0 +1,37 @@
+.container-projetos{
+    width: 100%;
+    height: 100vh;
+}
+
+.cards-projetos{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 3fr));
+    width: 80%;
+    place-items: center;
+    gap: 20px;
+}
+
+.card-projeto{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+    padding: 14px;
+    background-color: transparent;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.205);
+    border-radius: 8px;
+    color: white;
+}
+.card-projeto h1{
+    font-family: 'Share Tech', sans-serif;
+    font-size: 22px;
+}
+.card-projeto p,
+.card-projeto a{
+    font-family: 'Roboto', sans-serif;
+}
+
+.card-projeto a{
+    color: #86BA90;
+}
+
