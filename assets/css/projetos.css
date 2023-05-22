@@ -21,6 +21,12 @@
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.205);
     border-radius: 8px;
     color: white;
+    gap: 20px;
+}
+.nome-tec{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
 }
 .card-projeto h1{
     font-family: 'Share Tech', sans-serif;
@@ -33,5 +39,19 @@
 
 .card-projeto a{
     color: #86BA90;
+}
+.links-card-projetos{
+    display: flex;
+    gap: 14px;
+}
+.links-card-projetos a{
+    padding: 6px;
+    color: #30332E;
+    background-color:#86BA90;
+    border-radius: 4px;
+    transition: .2s ease-in-out;
+}
+.links-card-projetos a:hover{
+    color: #fff;
 }
 
