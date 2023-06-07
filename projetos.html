@@ -14,18 +14,16 @@
     <header>
         <a href="index.html">Donizetti</a>
         <div class="dropdown">
-            <button class="button">Menu</button>
-            <div class="btns-nav">
-                <a href="sobre.html">Sobre</a>
+            <button onclick="toggleDropdown()" class="dropbtn">Menu</button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="sobre.html" class="item-nav">Sobre</a>>
                 <a href="projetos.html">Projetos</a>
-                <a href="https://github.com/RafaelDonizetti" class="item-nav">Github</a>
-                <a href="contato.html">Contato</a>
+                <a href="contato.html" class="item-nav">Contato</a>
             </div>
         </div>
         <nav>
             <ul>
                 <a href="sobre.html" class="item-nav">Sobre</a>
-                <a href="https://github.com/RafaelDonizetti" class="item-nav" target="_blank">Github</a>
                 <a href="projetos.html">Projetos</a>
                 <a href="contato.html" class="item-nav">Contato</a>
             </ul>
@@ -33,16 +31,6 @@
     </header>
     <main class="container-projetos">
         <section class="cards-projetos">
-            <div class="card-projeto">
-                <div class="nome-tec">
-                    <h1>Nome do projeto</h1>
-                    <p>HTML - CSS - JS</p>
-                </div>
-                <div class="links-card-projetos">
-                    <a href="" target="_blank">Página</a>
-                    <a href="" target="_blank">Repositório</a>
-                </div>
-            </div>
             <div class="card-projeto">
                 <div class="nome-tec">
                     <h1>Calculado JS</h1>
@@ -55,22 +43,22 @@
             </div>
             <div class="card-projeto">
                 <div class="nome-tec">
-                    <h1>Landing Page (Investiment)</h1>
+                    <h1>Landing Page</h1>
                     <p>HTML - CSS</p>
                 </div>
                 <div class="links-card-projetos">
-                        <a href="https://rafaeldonizetti.github.io/landing-page" target="_blank">Página</a>
-                        <a href="https://github.com/RafaelDonizetti/landing-page">Repositório</a>
+                    <a href="https://rafaeldonizetti.github.io/landing-page" target="_blank">Página</a>
+                    <a href="https://github.com/RafaelDonizetti/landing-page">Repositório</a>
                 </div>
             </div>
             <div class="card-projeto">
                 <div class="nome-tec">
-                    <h1>Requisição da API OMDb</h1>
+                    <h1>Busca de filmes</h1>
                     <p>HTML - CSS - JS</p>
                 </div>
                 <div class="links-card-projetos">
-                    <a href="" target="_blank">Página</a>
-                    <a href="https://github.com/RafaelDonizetti/Aplicacao-usando-API" target="_blank">Repositório</a>
+                    <a href="https://rafaeldonizetti.github.io/busca-filmes" target="_blank">Página</a>
+                    <a href="https://github.com/RafaelDonizetti/busca-filmes" target="_blank">Repositório</a>
                 </div>
             </div>
         </section>
